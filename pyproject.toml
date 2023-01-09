@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "scrapper"
+version = "0.1.0"
+description = "Web scrapping utilities built using Python and Selenium"
+authors = ["amiteshrai <amiteshrai@outlook.com>"]
+homepage = "https://github.com/amiteshrai/web-scrapping"
+repository = "https://github.com/amiteshrai/web-scrapping"
+readme = "README.md"
+packages = [{ include = "scrapper", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+xlml = "^0.1.2"
+xlrd = "^2.0.1"
+xlsxwriter = "^3.0.6"
+selenium = "^4.7.2"
+openpyxl = "^3.0.10"
+beautifulsoup4 = "^4.11.1"
+arrow = "^1.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+flake8 = "^6.0.0"
+black = "^22.12.0"
+isort = "^5.11.4"
+autoflake = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
