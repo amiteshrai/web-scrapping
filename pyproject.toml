@@ -18,6 +18,7 @@ selenium = "^4.7.2"
 openpyxl = "^3.0.10"
 beautifulsoup4 = "^4.11.1"
 arrow = "^1.2.3"
+jupyterlab = "^3.5.2"
 
 
 [tool.poetry.group.dev.dependencies]
